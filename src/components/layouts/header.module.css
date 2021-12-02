@@ -1,0 +1,33 @@
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    background-color: teal;
+}
+
+.header__logo {
+    font-size: 2rem;
+    color: white;
+}
+
+.header__cart {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.cart__logo {
+
+}
+
+.cart__title {
+    font-size: 1.2rem;
+}
+
+.cart__state {
+    font-size: 1.2rem;
+}

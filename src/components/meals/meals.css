@@ -1,0 +1,39 @@
+.meal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.meal__description,
+.meal__price,
+.meal__title {
+    margin: 5px 0;
+}
+
+label {
+    margin-right: 10px;
+}
+
+input {
+    padding: 4px;
+    width: 50%;
+    max-width: 80px;
+}
+
+input::placeholder {
+    color: black;
+}
+
+.cart__button {
+    border: none;
+    background-color: teal;
+    color: white;
+    border-radius: 2px;
+    padding: 5px 15px;
+    font-size: 16px;
+    margin-top: 15px;
+    display: block;
+    margin-left: auto;
+    cursor: pointer;
+}
