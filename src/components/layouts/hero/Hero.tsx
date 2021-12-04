@@ -1,10 +1,6 @@
 import c from './hero.module.css';
-
-interface HeroProps {
-    
-}
  
-const Hero: React.FunctionComponent<HeroProps> = () => {
+const Hero: React.FC = () => {
     return ( 
         <section className={c.hero}></section>
      );
